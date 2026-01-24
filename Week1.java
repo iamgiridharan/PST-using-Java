@@ -10,7 +10,6 @@ class Week1 {
         }
         System.out.println();
     }
-    // new comment
 
     // Task 2: Access and print the element at a given index in an array
     public static void printElementAtIndex(int[] arr, int index) {
@@ -38,7 +37,7 @@ class Week1 {
             }
         }
         return -1;
-    } // this is a new comment
+    } 
 
     // Task 4: Find the maximum element in an array of n integers
     public static int maxelement(int[] arr) {
