@@ -42,9 +42,9 @@ class Week1 {
     // Task 4: Find the maximum element in an array of n integers
     public static int maxelement(int[] arr) {
         int max = arr[0];
-        for (int x : arr) {
-            if (x > max) {
-                max = x;
+        for (int i=1;i<arr.length;i++) {
+            if (arr[i] > max) {
+                max = arr[i];
             }
         }
         return max;
@@ -56,9 +56,8 @@ class Week1 {
             return -1;
         }
 
-        int[] copy = Arrays.copyOf(arr, arr.length);
-        Arrays.sort(copy); 
-        return copy[k - 1]; 
+        Arrays.sort(arr); 
+        return arr[k - 1]; 
     }
 
     // Task 6: Print all possible pairs of elements from an array of size n
