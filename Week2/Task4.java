@@ -18,7 +18,7 @@ class Person {
         return age;
     }
 }
-public class Main {
+public class Task4 {
 
     public static boolean isOlderThan(Person p, int ageLimit) {
         return p.getAge() > ageLimit;
