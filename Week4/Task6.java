@@ -2,7 +2,6 @@ import java.util.*;
 public class Task6 {
     public void moveZeroes(int[] nums) {
         int count=0;
-        int[] moved= new int[nums.length];
         for(int i=0; i< nums.length;i++){
             if (nums[i]!=0){
                 nums[count]=nums[i];
@@ -26,5 +25,6 @@ public class Task6 {
         for (int i=0; i<nums.length;i++){
             System.out.print(nums[i]+" ");
         }
+        sc.close();
     }
 }

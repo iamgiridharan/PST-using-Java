@@ -20,5 +20,6 @@ public class Task4 {
         Task4 task4=new Task4();
         boolean result=task4.containsDuplicate(nums);
         System.out.println(result);
+        sc.close();
     }
 }
