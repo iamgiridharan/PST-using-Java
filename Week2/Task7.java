@@ -19,6 +19,7 @@ public class Task7 {
 
     String res=findDays(year,month,day);
     System.out.println(res);
+    sc.close();
   }
 
 }
