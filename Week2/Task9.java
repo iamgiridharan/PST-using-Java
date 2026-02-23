@@ -49,5 +49,6 @@ public class Task9{
                 System.out.print(e.name + " ");
             }
         }
+        sc.close();
     }
 }
